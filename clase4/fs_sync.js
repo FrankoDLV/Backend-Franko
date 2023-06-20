@@ -16,5 +16,4 @@ const nuevoContenido = `contenido adicional para guardar en el archivo`;
 
 fs.appendFileSync(archivo, nuevoContenido);
 
-
-fs.unlinkSync(archivo)
+fs.unlinkSync(archivo);

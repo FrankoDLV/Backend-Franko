@@ -15,4 +15,8 @@ const timer = setInterval(() => {
 setTimeout(() => {
   clearInterval(timer);
 }, 8000);
- 
+
+
+
+const now = new Date()
+console.log(now.toString())
