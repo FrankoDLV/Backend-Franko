@@ -29,6 +29,7 @@ const callbackFn = (err, ruta) => {
     }
     console.log("termino mi programa");
   });
-};v 
+};
+v;
 
 escribeArchivoFake(callbackFn);

@@ -4,7 +4,7 @@ function a() {
 
 function b() {
   console.log("b");
-  for (let i = 0; i <= 100; i++) {}
+  for (let i = 0; i <= 100; i++) { }
 
   console.log("b2");
 }
